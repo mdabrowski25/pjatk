@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe kompiluj aktywny plik",
+			"command": "C:\\Programming\\C\\mingw-w64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"-Wall",
+				"-std=c++17",
+				"${fileDirname}\\*.cpp",
+				"-static",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "C:\\Programming\\C\\mingw-w64\\mingw64\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "kompilator: C:\\Programming\\C\\mingw-w64\\mingw64\\bin\\g++.exe"
+		}
+	]
+}

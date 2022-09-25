@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 1rem;
+    padding-bottom: 1em;
+    line-height: 1em;
+}
+
+body {
+    background-color: #117EAE;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    margin: 1rem 2rem;
+    color: #212529;
+}
+
+h1 {
+    font-size: 3.25rem;
+    color: red;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.75rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 2.25rem;
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.pb {
+    padding-bottom: 1rem;
+}
+
+.section-p {
+    padding-bottom: 3rem;
+}
+
+hr {
+    margin: 4rem 0;
+}
+
+.text-block {
+    text-align: left;
+}
+
+.my-list {
+    text-align: left;
+    font-size: 1rem;
+}
+
+.my-list ul {
+    list-style-type: square;
+}
+
+.my-list ol {
+
+}
+
+tr:nth-child(even) {
+    background-color: rgba(45, 45, 45, 0.2);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    vertical-align: top;
+    font-size: 1rem;
+}
+
+table thead {
+    vertical-align: bottom;
+    border-bottom: 2px #fff solid;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+table tbody {
+    vertical-align: center;
+}
+
+table tbody tr {
+    height: 2rem;
+}
+
+#colspan-table tr {
+    background-color: inherit;
+}
+
+#table-image-td {
+    text-align: left;
+    width: 30%;
+    padding-right: 6rem;
+}
+
+#table-title-td {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#newsletter-table-block {
+    margin-bottom: 4rem;
+}
+
+
+#colspan-table-content {
+    padding: 2.2rem 5rem;
+    text-align: left;
+    border-left: 2px #ffffff solid;
+}
+
+.title-block {
+    justify-self: center;
+}
+
+.text-and-image-block {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.image-block {
+    width: 50%;
+    order: 2;
+    padding-left: 1rem;
+}
+
+.text-row-flex {
+    width: 50%;
+    order: 1;
+    padding-right: 1rem;
+}
+
+#image1 {
+    height: 100%;
+    width: 100%;
+}
+
+#table-image-td > img {
+    height: 300px;
+    width: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form div {
+    padding-right: 1rem;
+}
+
+.contact-info-flex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.newColor {
+    color: black;
+}
