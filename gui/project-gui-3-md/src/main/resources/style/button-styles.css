@@ -1,0 +1,9 @@
+.button-with-ui {
+    -fx-background-color: transparent;
+    -fx-background-image: url("../ui/blue_button04.png");
+}
+
+.pressed-button-with-ui {
+    -fx-background-color: transparent;
+    -fx-background-image: url("../ui/blue_button03.png");
+}

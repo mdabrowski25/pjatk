@@ -1,0 +1,9 @@
+Andrzej,8
+Sebastien,4
+Janusz,15
+Mateusz,3
+Piotr,5
+Francis,8
+Bartek,2
+Andrzej Duda,5
+Janusz Korwin-Mikke,10

@@ -1,0 +1,20 @@
+#primary-pane {
+    -fx-background-image: url("../ui/bg-resize.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#stats-pane {
+    -fx-background-color: rgb(153, 204, 255);
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 800;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.list-cell {
+    -fx-control-inner-background: #b3d7ff;
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background, 50%);
+}

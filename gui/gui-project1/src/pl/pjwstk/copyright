@@ -1,0 +1,3 @@
+- Użyto wzorzec projektowy builder
+- Użyto DAO pattern z baeldung sam interfejs, bez implementacji, implementacja własna
+    https://www.baeldung.com/java-dao-pattern
